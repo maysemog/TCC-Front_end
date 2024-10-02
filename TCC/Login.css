@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #e8e5e5;
+}
+
+nav ul{
+    background: red;
+}
+
+.maiorbranco{
+    display:flex;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.infoUsuario{
+    display: flex;
+    flex-direction: column;
+}
+
